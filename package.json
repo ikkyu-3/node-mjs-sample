@@ -1,0 +1,15 @@
+{
+  "name": "node-mjs-sample",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/ikkyu-3/node-mjs-sample.git",
+  "author": "ikkyu-3 <toru.hasegawa.0521@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "finalhandler": "^1.1.1",
+    "router": "^1.3.2"
+  },
+  "scripts": {
+    "start": "node --experimental-modules index.mjs"
+  }
+}
